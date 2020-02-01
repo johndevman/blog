@@ -13,4 +13,3 @@ footnotereturnlinkcontents = "↩"
 [params]
     description = ""
     footer = "Open-Source | [Github](https://github.com/johndevman)"
-    custom_css = ["css/theme-override.css"]
