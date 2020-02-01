@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# John Svensson
+# I am John
 
 I am a web developer in rainy Gothenburg, Sweden. I work at Kodamera where I build digital experiences using Drupal.
 
