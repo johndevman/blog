@@ -10,4 +10,4 @@ I enjoy beer, brazilian jiu-jitsu, games, technology and conversations.
 
 ---
 
-### Blog
+### Posts
