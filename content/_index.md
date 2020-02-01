@@ -6,4 +6,4 @@ title: Home
 
 ---
 
-### Writings
+### Blog
