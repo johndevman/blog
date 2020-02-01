@@ -6,7 +6,9 @@ author = "John Svensson"
 
 By default the [Symfony Validator component](https://symfony.com/doc/current/components/validator.html) can only validate simple variables such as strings, numbers and arrays.
 
-```
+```php
+<?php
+
 use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\Validation;
@@ -20,7 +22,9 @@ $violations = $validator->validate('Example', [
 
 To validate objects you need to use the ValidatorBuilder to build and return a Validator instance.
 
-```
+```php
+<?php
+
 use Symfony\Component\Validator\Validation;
 
 $builder = Validation::createValidatorBuilder();
@@ -31,7 +35,9 @@ $validator = $builder->getValidator();
 
 Now add a static method `loadValidatorMetadata` to your class with your constraints.
 
-```
+```php
+<?php
+
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 
@@ -46,7 +52,9 @@ class Book {
 
 You can now validate that object.
 
-```
+```php
+<?php
+
 use Symfony\Component\Validator\Validation;
 
 $builder = Validation::createValidatorBuilder();

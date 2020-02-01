@@ -6,6 +6,7 @@ googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
+pygmentsCodeFences = true
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
@@ -13,3 +14,4 @@ footnotereturnlinkcontents = "↩"
 [params]
     description = ""
     footer = "Open-Source | [Github](https://github.com/johndevman)"
+
