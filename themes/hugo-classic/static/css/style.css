@@ -137,3 +137,13 @@ tr:nth-child(even) { background: #eee }
   padding: 10px;
   display: block;
 }
+
+.posts-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer {
+  border-top: 1px solid #d5d5d5;
+  padding-top: 1em;
+}

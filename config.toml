@@ -13,5 +13,5 @@ pygmentsCodeFences = true
 
 [params]
     description = ""
-    footer = "Open-Source | [Github](https://github.com/johndevman)"
+    footer = "Open Source | [GitHub](https://github.com/johndevman)"
 

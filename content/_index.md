@@ -8,6 +8,4 @@ I am a web developer in rainy Gothenburg, Sweden. I work at Kodamera where I bui
 
 I enjoy beer, brazilian jiu-jitsu, games, technology and conversations.
 
----
-
 ### Posts
