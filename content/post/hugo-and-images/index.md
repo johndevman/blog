@@ -53,3 +53,5 @@ I can now use that shortcode in my post.
 ```
 {{</* image image.jpg "Alternative text" */>}}
 ```
+
+Next up is responsive images.
