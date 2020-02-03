@@ -1,5 +1,6 @@
 ---
 title: Home
+description: John Svenssons Blog
 ---
 
 # I am John
