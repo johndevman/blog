@@ -1,5 +1,6 @@
-{{ $resource := .Page.Resources.GetMatch "image.jpg" }}
+{{ $resource := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 
+{{ $image2 := $resource.Resize "1360x" }}
 {{ $image := $resource.Resize "680x" }}
 
-<img src="{{ $image.RelPermalink }}">
+<img src="{{ $image.RelPermalink }}" srcset="{{ $image.RelPermalink }} 1x, {{ $image2.RelPermalink }} 2x" alt="{{ .Get 1 }}">

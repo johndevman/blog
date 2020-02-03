@@ -5,10 +5,6 @@ author = "John Svensson"
 description = "Validating objects with Symfony Validator component"
 +++
 
-{{< image >}}
-
-Photo by Aw Creative on Unsplash
-
 By default the [Symfony Validator component](https://symfony.com/doc/current/components/validator.html) can only validate simple variables such as strings, numbers and arrays.
 
 ```php
