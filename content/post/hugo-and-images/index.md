@@ -5,7 +5,7 @@ author = "John Svensson"
 description = "Adding images to your posts in Hugo"
 +++
 
-{{< image image.jpg "Cape Town, South Africa" >}}
+{{< image "image.jpg" "Cape Town, South Africa" >}}
 
 Photo by [Tobias Reich](https://unsplash.com/@electerious) on [Unsplash](https://unsplash.com/)
 
@@ -51,7 +51,7 @@ themes/THEME_NAME/layouts/shortcodes/image.html:
 I can now use that shortcode in my post.
 
 ```
-{{</* image image.jpg "Alternative text" */>}}
+{{</* image "image.jpg" "Alternative text" */>}}
 ```
 
 Next up is responsive images.
