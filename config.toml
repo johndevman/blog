@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "John Svensson"
-theme = "hugo-classic"
+theme = "john"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 enableEmoji = true

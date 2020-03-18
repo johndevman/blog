@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+  {{ .Content }}
+
+  <h2>Posts</h2>
+  <ul class="posts">
+    {{ range first 10 .Site.RegularPages }}
+    <li class="posts__post">
+      <a href="{{.Permalink}}" class="posts__link"><h3 class="posts__title">{{.Title}}</h3></a>
+      <p class="posts__date">{{.Date.Format "2006-01-02"}}</p>
+    </li>
+    {{ end }}
+  </ul>
+{{ end }}
