@@ -1,4 +1,12 @@
 html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+html {
   font-size: 100%;
 }
 
@@ -6,11 +14,18 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   font-size: 1.125rem;
+  margin: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
 }
 
 .container {
   margin: 0 auto;
   max-width: 900px;
+  padding: 1rem;
 }
 
 .main {

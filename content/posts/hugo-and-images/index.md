@@ -37,7 +37,7 @@ content/
 
 And then I created a new shortcode.
 
-themes/THEME_NAME/layouts/shortcodes/image.html:
+image.html:
 
 ```
 {{ $resource := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
