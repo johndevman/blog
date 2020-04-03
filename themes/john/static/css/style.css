@@ -6,6 +6,14 @@ html {
   box-sizing: inherit;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
 html {
   font-size: 100%;
 }
@@ -64,6 +72,10 @@ img {
 
 .post__content {
   margin-top: 2rem;
+}
+
+.post__content a {
+  color: blue;
 }
 
 a {
