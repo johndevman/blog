@@ -9,13 +9,13 @@ This guide assumes that you've installed PHP with brew. See [macOS 10.15 Catalin
 
 First we need to install Xdebug, we will do that using `pecl`
 
-```
+```bash
 $ pecl install xdebug
 ```
 
 If you run `php -v` in the Terminal you should see Xdebug loaded.
 
-```
+```bash
 $ php -v
 PHP 7.2.15 (cli) (built: Feb 26 2019 10:52:23) ( NTS )
 Copyright (c) 1997-2018 The PHP Group
@@ -26,14 +26,14 @@ Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
 
 Next we need to configure Xdebug, PHP configuration is located at `/usr/local/etc/php/7.x/conf.d/` when installed with brew. Let's create a ext-xdebug.ini file within that location.
 
-```
+```bash
 $ cd /usr/local/etc/php/7.2/conf.d/
 $ touch ext-debug.ini
 ```
 
 Open that file with your favorite text editor.
 
-```
+```ini
 [xdebug]
 zend_extension="xdebug.so"
 xdebug.remote_enable=1

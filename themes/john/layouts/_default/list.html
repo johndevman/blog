@@ -7,7 +7,7 @@
     {{ range first 10 .Site.RegularPages }}
     <li class="posts__post">
       <a href="{{.Permalink}}" class="posts__link"><h3 class="posts__title">{{.Title}}</h3></a>
-      <p class="posts__date">{{.Date.Format "2006-01-02"}}</p>
+      <p class="posts__date">{{.Date.Format "Monday, January 2, 2006"}}</p>
     </li>
     {{ end }}
   </ul>

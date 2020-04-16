@@ -35,7 +35,7 @@ The [Install Profile Generator](http://drupal.org/project/install_profile_genera
 
 Download the module, install it and run the command:
 
-```
+```bash
 $ composer require 'drupal/install_profile_generator:^3.0'
 $ vendor/bin/drush en install_profile_generator
 $ vendor/bin/drush install-profile-generate --name=test
@@ -51,7 +51,7 @@ The content and post-install things Standard does, such as adding administrator 
 
 Here's how you would do that:
 
-```
+```bash
 # Install the site as usual with Standard
 $ vendor/bin/drush site:install
 
