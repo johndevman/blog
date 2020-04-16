@@ -19,7 +19,7 @@ If you're using a profile/distribution that doesn't implement `hook_install` (i.
 
 Using Drush:
 
-```
+```bash
 $ vendor/bin/drush site:install --existing-config
 ```
 
