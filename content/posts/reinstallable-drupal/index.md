@@ -61,7 +61,7 @@ $ vendor/bin/drush cex
 # Update core.extension.yml to set the profile to minimal
 sed -i '' "s/standard/minimal/g" sites/default/files/config_HASH/sync/core.extension.yml
 
-# Reinstall the site with exisiting configuration
+# Reinstall the site with existing configuration
 $ vendor/bin/drush site:install --existing-config
 ```
 
